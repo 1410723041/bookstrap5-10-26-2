@@ -1,14 +1,23 @@
 body
 {
-	font: 12px Tahoma, Arial, Helvetica, sans-serif;
-	color: #b9b9b9;
-	background: #0760b3 url(images/bg.png);
+	font: 14px Tahoma, Arial, Helvetica, sans-serif;
+	color: #5f5f5f;
+	background: #1186f3 url(images/bg.png);
+	
 }
+
+.container{
+
+	background:#c5edfa;
+
+
+}
+
 
 
 #logo
 {
-background: #0760b3 url(images/bg.png);  
+background: #1186f3 url(images/bg.png);  
 padding-left: 40px;
 text-align: left;
 padding-top: 30px;
@@ -33,16 +42,16 @@ font-size: 5px;
 }
 
 #carousel{
-    background: #ADE8FC;
-    border-top: 15px solid #ADE8FC;
-    border-right: 15px solid #ADE8FC;
-    border-left: 15px solid #ADE8FC;
+    background: #c5edfa;
+    border-top: 15px solid #c5edfa;
+    border-right: 15px solid #c5edfa;
+    border-left: 15px solid #c5edfa;
 }
 
 #buttons
 {    
-    border-right: 27px solid #ADE8FC;
-    border-left: 27px solid #ADE8FC;
+    border-right: 27px solid #c5edfa;
+    border-left: 27px solid #c5edfa;
     padding: 0px;
 	height: 62px;
 	background: url(images/menu.gif) repeat-x;
@@ -85,8 +94,8 @@ font-size: 5px;
 
 }
 #box{
-	border-right: 27px solid #ADE8FC;
-    border-left: 27px solid #ADE8FC;
+	border-right: 27px solid #c5edfa;
+    border-left: 27px solid #c5edfa;
 
 }
 #Duis{
@@ -99,7 +108,7 @@ font-size: 5px;
 }
 
 .list1 li {
-	font-size:10px;
+	font-size:14px;
 	color:#000;
 	text-transform:uppercase;	
 	list-style: none;
@@ -112,3 +121,24 @@ font-size: 5px;
 		color:#000;
 		padding:0 0 0 4px;
 	}
+
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height: 80px;
+	margin: 0 auto;
+	color: #ffffff;
+	padding-top: 15px;
+	text-align: center;
+	clear:both;
+	border-right: 27px solid #c5edfa;
+    border-left: 27px solid #c5edfa;
+   
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
